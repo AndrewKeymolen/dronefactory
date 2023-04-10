@@ -8,7 +8,7 @@ Just fork and adapt it to your needs
 
 ## Usage
 
-You can access the result here [my webpage](https://dronefactory.art/)
+You can access the result [here](https://dronefactory.art/)
 
 ## Author
 
