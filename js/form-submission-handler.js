@@ -100,6 +100,7 @@
     var buttons = form.querySelectorAll("button");
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
+      buttons[i].backgroundColor  = 'grey';
     }
   }
 })();
