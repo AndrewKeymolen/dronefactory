@@ -1,0 +1,8 @@
+{
+  "name": "dronefactory",
+  "version": "0.1.0",
+  "scripts": {
+  "start": "serve -s build",
+  "build": "serve -s build"
+}
+}
