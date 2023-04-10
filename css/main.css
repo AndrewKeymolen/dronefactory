@@ -992,6 +992,21 @@ p .li {
 	text-decoration: none;
 }
 
+#text04 {
+	color: #FFFFFF;
+	font-family: 'Raleway', cursive;
+	font-size: 1em;
+	line-height: 1.1;
+	font-weight: 400;
+}
+
+#text04 a {
+	text-decoration: underline;
+}
+
+#text04 a:hover {
+	text-decoration: none;
+}
 
 #credits br+br {
 	margin-top: 0.9rem;

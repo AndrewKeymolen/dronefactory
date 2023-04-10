@@ -78,6 +78,11 @@
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
           }
+          var buttons = form.querySelectorAll("button");
+          for (var i = 0; i < buttons.length; i++) {
+            buttons[i].disabled = false;
+            buttons[i].style.backgroundColor  = "rgb(246, 163, 159)";
+          }
         }
     };
     // url encode form data for sending as post data
@@ -97,6 +102,10 @@
   document.addEventListener("DOMContentLoaded", loaded, false);
 
   function disableAllButtons(form) {
+    var thankYouMessage = form.querySelector(".thankyou_message");
+    if (thankYouMessage) {
+      thankYouMessage.style.display = "none";
+    }
     var buttons = form.querySelectorAll("button");
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
