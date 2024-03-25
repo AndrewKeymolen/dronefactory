@@ -1,3 +1,27 @@
+@font-face {
+	font-family: 'lemon_milkbold';
+	src: url('lemonmilkbold-webfont.woff2') format('woff2'),
+		url('lemonmilkbold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lemon_milkmedium';
+	src: url('lemonmilkmedium-webfont.woff2') format('woff2'),
+		url('lemonmilkmedium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lemon_milklight';
+	src: url('lemonmilk-light-webfont.woff2') format('woff2'),
+		url('lemonmilk-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html,
 body,
 div,
@@ -727,18 +751,19 @@ body.is-instant:after {
 }
 
 .sendbutton {
-background-color: rgba(246, 163, 159, 1);
-border: none;
-padding: 3px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-family: 'Raleway', cursive;
-font-size: 0.9em;
-line-height: 1.3;
-font-weight: 400;
-margin-top: 4px;
-border-radius: 6px;
+	background-color: rgb(41, 42, 75, 1);
+	color: rgba(255, 255, 255, 0.75);
+	border: none;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.3;
+	font-weight: 400;
+	margin-top: 8px;
+	border-radius: 6px;
 }
 
 .buttons li a {
@@ -783,7 +808,7 @@ border-radius: 6px;
 	vertical-align: middle;
 	padding: 0 1.5rem;
 	font-size: 1em;
-	font-family: 'Raleway', cursive;
+	font-family: 'lemon_milkmedium', Arial, sans-serif;
 	font-weight: 500;
 	border-radius: 2rem;
 	-moz-justify-content: flex-end;
@@ -837,12 +862,12 @@ border-radius: 6px;
 }
 
 .buttons.style1 .button:hover {
-	color: #FF5C5C !important;
-	border-color: #FF5C5C !important;
+	color: #292A4B !important;
+	border-color: #292A4B !important;
 }
 
 .buttons.style1 .button:hover svg {
-	fill: #FF5C5C !important;
+	fill: #292A4B !important;
 }
 
 .image {
@@ -891,20 +916,21 @@ border-radius: 6px;
 	display: block;
 }
 
-.filter-pink{
-    filter: brightness(0) saturate(100%) invert(73%) sepia(6%) saturate(2647%) hue-rotate(314deg) brightness(100%);
+.filter-pink {
+	filter: invert(14%) sepia(29%) saturate(1007%) hue-rotate(198deg) brightness(96%) contrast(92%);
 }
 
-.filter-pink-inverted{
-    filter: saturate(100%) invert(73%) sepia(6%) saturate(2647%) hue-rotate(314deg) brightness(100%);
+.filter-pink-inverted {
+	filter: brightness(0) saturate(100%) invert(14%) sepia(29%) saturate(1007%) hue-rotate(198deg) brightness(96%) contrast(92%);
+	;
 }
 
 #image01:not(:first-child) {
-	margin-top: 1.75rem !important;
+	margin-top: 1rem !important;
 }
 
 #image01:not(:last-child) {
-	margin-bottom: 1.75rem !important;
+	margin-bottom: 1rem !important;
 }
 
 #image01 a,
@@ -913,7 +939,7 @@ border-radius: 6px;
 }
 
 #image01 img {
-	width: 9.375rem;
+	width: 14.375rem;
 	border-radius: 100%;
 }
 
@@ -939,11 +965,10 @@ p .li {
 }
 
 #text01 {
-	color: #FFFFFF;
-	font-family: 'Delicious Handrawn', sans-serif;
-	letter-spacing: -0.175rem;
+	color: #292A4B;
+	font-family: 'lemon_milkbold', Arial, sans-serif;
 	width: 100%;
-	font-size: 5em;
+	font-size: 3em;
 	line-height: 1.125;
 	font-weight: 100;
 }
@@ -961,10 +986,11 @@ p .li {
 }
 
 #text02 {
-	color: #FFFFFF;
-	font-family: 'Raleway', cursive;
-	font-size: 2em;
-	line-height: 1.8;
+	color: #292A4B;
+	font-family: 'lemon_milkbold', Arial, sans-serif;
+	;
+	font-size: 1.6em;
+	line-height: 1;
 	font-weight: 400;
 }
 
@@ -977,8 +1003,9 @@ p .li {
 }
 
 #text03 {
-	color: #FFFFFF;
-	font-family: 'Raleway', cursive;
+	color: #292A4B;
+	font-family: 'lemon_milkmedium', Arial, sans-serif;
+	;
 	font-size: 1.2em;
 	line-height: 1.3;
 	font-weight: 400;
@@ -993,9 +1020,10 @@ p .li {
 }
 
 #text04 {
-	color: #FFFFFF;
-	font-family: 'Raleway', cursive;
-	font-size: 1em;
+	color: #292A4B;
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+	margin-bottom: 0.9em;
 	line-height: 1.1;
 	font-weight: 400;
 }
@@ -1013,8 +1041,8 @@ p .li {
 }
 
 #credits {
-	color: #FFFFFF;
-	font-family: 'Raleway', cursive;
+	color: #292A4B;
+	font-family: 'lemon_milklight', Arial, sans-serif;
 	font-size: 0.8em;
 	line-height: 1.5;
 	font-weight: 400;
@@ -1384,15 +1412,15 @@ p .li {
 	}
 
 	#image01:not(:first-child) {
-		margin-top: 1.3125rem !important;
+		margin-top: 1rem !important;
 	}
 
 	#image01:not(:last-child) {
-		margin-bottom: 1.3125rem !important;
+		margin-bottom: 1rem !important;
 	}
 
 	#image01 img {
-		width: 9.375rem;
+		width: 14.375rem;
 	}
 
 	#text01 {
@@ -1406,7 +1434,7 @@ p .li {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1.5em;
-		line-height: 1.875;
+		line-height: 1.275;
 	}
 
 	#credits {
